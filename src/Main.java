@@ -34,7 +34,7 @@ public class Main {
         for (int i = 0; i < args.length; i++) {
             System.out.println(args[i]); // считывание аргумента до пробела
         }
-        String path_to_result = "C:\\Users\\nyh02\\OneDrive\\javatest\\testTask\\src\\", prefix_to_result ="", file_name;
+        String path_to_result = "", prefix_to_result ="", file_name;
         List<String> outputDate = new ArrayList<>(); // лист считываемых данных из текущего файла
         boolean flagA = false, flagS = false, flagF = false;
         // обработка считанных опций и имен файлов
